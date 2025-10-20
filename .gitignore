@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Other files to ignore
+src/compare/
+data/raw/devilfruit_io_fruits.csv
+data/raw/fuzzy_matches.csv
+data/raw/missing_in_devilfruit.csv
+data/raw/missing_in_fandom.csv
+src/scraper/devilfruit_io.py

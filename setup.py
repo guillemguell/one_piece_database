@@ -4,7 +4,7 @@ from typing import List
 HYPHEN_E_DOT = '-e .'
 def get_requirements(file_path: str) -> List[str]:
   '''
-  This function will return the list of requirements
+  This function returns the list of requirements
   '''
   requirements = []
   with open(file_path) as f:
@@ -23,11 +23,6 @@ setup(
     author = 'Guillem Güell',
     packages = find_packages(),
     python_requires = '>=3.0',
-    # install_requires = [
-    #     'pandas',
-    #     'requests',
-    #     'beautifulsoup4'
-    # ],
     install_requires = get_requirements('requirements.txt'),
     # extras_require = {
     #     'dev': ['pdoc',
