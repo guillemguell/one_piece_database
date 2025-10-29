@@ -214,3 +214,12 @@ data/raw/fuzzy_matches.csv
 data/raw/missing_in_devilfruit.csv
 data/raw/missing_in_fandom.csv
 src/scraper/devilfruit_io.py
+
+data/raw/devil_fruits_imgs/
+data/raw/devil_fruits_imgs_old/
+
+src/scraper/Scraper tests.ipynb
+src/Clean_df_desc.py
+data/raw/old/
+
+anaconda_projects/
