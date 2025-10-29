@@ -1,2 +1,2 @@
 # One Piece database
-This project aims to create a database for different One Piece entities
+Exploring and analyzing data from the One Piece universe — building a structured database and uncovering insights about characters, episodes, and story arcs.
